@@ -1,6 +1,6 @@
 # python-projects
 
-contains python projects that accomplish different skills 
+contains python projects that were accomplished with different skills 
 
     - data science
     - databases
