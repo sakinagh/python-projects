@@ -2,7 +2,7 @@
 
 contains python projects that were accomplished with different skills 
 
-    - data science
+    - data analysis
     - databases
     - data visualization
     - problem-solving
