@@ -28,7 +28,7 @@ def calculate_demographic_data(print_data=True):
     # What percentage of the people who work the minimum number of hours per week have a salary of >50K?
     adv = df['hours-per-week'] == min_work_hours
 
-    rich_percentage = round((adv & notAdv).sum() / adv.sum() * 100, 1)
+    rich_percentage = round((adv & notAdv).sum() / adv[notAdv].sum() * 100, 1)
 
     # What country has the highest percentage of people that earn >50K?
     rich_percentage = (df[notAdv]['native-country'].value_counts() \
