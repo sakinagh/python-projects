@@ -7,4 +7,9 @@ contains python projects that were accomplished with different skills
     - data visualization
     - problem-solving
     - statistics 
+    - machine learning
+    - neural networks
+    - tensorflow, keras
+    - natural language processing
+    - reinforcement learning
     - Google Colab with Jupyter notebooks
